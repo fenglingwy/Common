@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/action_h"
+        android:orderInCategory="100"
+        android:title="水平"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_v"
+        android:orderInCategory="100"
+        android:title="垂直"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_g"
+        android:orderInCategory="100"
+        android:title="网格"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_p"
+        android:orderInCategory="100"
+        android:title="瀑布流"
+        app:showAsAction="never" />
+</menu>
